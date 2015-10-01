@@ -1,9 +1,0 @@
-http://www.codigopostal.ec/
-#Obtener provincias
-http://www.codigopostal.ec./js/ec/gob/anp/visor/server/GeometriasJson.php?metodo=getProvincias
-#obtener cantones -- esto pertenece a guayas
-http://www.codigopostal.ec./js/ec/gob/anp/visor/server/GeometriasJson.php?idProvincia=09&metodo=getCantones
-#Calle principal -- defecto calles de milagro guayas
-http://www.codigopostal.ec/js/ec/gob/anp/visor/server/NormalizaCalles.php?metodo=getCallesCoincidenciaNombre&q=*&ciudad=0910&filter[logic]=and&filter[filters][0][value]=ab&filter[filters][0][operator]=contains&filter[filters][0][field]=name&filter[filters][0][ignoreCase]=true
-#Calle secundaria o intersección -- milagro guayas --especificacion de calle
-http://www.codigopostal.ec/js/ec/gob/anp/visor/server/NormalizaCalles.php?metodo=getInterseccionCoincidenciaNombre&q=*&maxRows=10&parroquia=091050&calle=MARISCAL+SUCRE&filter[logic]=and&filter[filters][0][value]=*&filter[filters][0][operator]=contains&filter[filters][0][field]=name&filter[filters][0][ignoreCase]=true
